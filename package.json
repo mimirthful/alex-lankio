@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mimirthful.github.io/alex-portfolio-site",
+  "homepage": "https://mimirthful.github.io/alex-lankio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
