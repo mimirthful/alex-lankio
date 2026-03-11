@@ -28,7 +28,7 @@ export default function SitesContainer()
 
             <InfoCard 
               name="Reflections" 
-              subtitle="React, MUI & express, SQL"
+              subtitle="React, MUI & express, SQLite"
               picture={reflections} 
               alt="Photo of the app"
               description="Ongoing project. It aims to be stoic journaling app using technologies common in fullstack."
