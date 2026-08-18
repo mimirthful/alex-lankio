@@ -1,6 +1,8 @@
-export default function Header()
-{
-    return <header className="p-2">
-    <h1 className="display-4 text-light">Alex Lankio</h1>
+export default function Header() {
+  return (
+    <header>
+      <h1 className="text-warning">Alex Lankio</h1>
+      <p className="semititle">Building Useful + Playful Things</p>
     </header>
+  );
 }

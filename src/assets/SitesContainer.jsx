@@ -6,7 +6,7 @@ import Aurinkoone from "./images/aurinkoone.png";
 export default function SitesContainer() {
   return (
     <div className="row justify-content-center my-3">
-      <h3 className="p-2 text-light"> Sites and apps</h3>
+      <h3 className="p-2 text-light">Sites and apps</h3>
       <InfoCard
         name="Aurinkoone"
         subtitle="Python, wxPython"
@@ -18,7 +18,7 @@ export default function SitesContainer() {
       />
 
       <InfoCard
-        name="Iso-Heikkilä's Clubroom Booking"
+        name="Clubroom Booking"
         subtitle="React, css, JSON"
         picture={isoheikkila}
         alt="Photo of the website"
@@ -28,7 +28,7 @@ export default function SitesContainer() {
       />
 
       <InfoCard
-        name="Pokédex"
+        name="Pokedex"
         subtitle="React & Bootstrap 5"
         picture={pokedex}
         alt="Photo of the website"

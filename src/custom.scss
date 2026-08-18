@@ -1,0 +1,146 @@
+$body-bg: #daceb8;
+$primary: #8b292e;
+$secondary: #1e1947;
+$info: #2e51b1;
+$warning: #f3a62a;
+
+// SCSS custom theme colors
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/_variables.scss";
+@import "bootstrap/scss/bootstrap.scss";
+
+// DEFAULT STYLES
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url("./assets/images/bg.png");
+  background-repeat: repeat;
+}
+
+// Font Face Declarations (unchanged)
+@font-face {
+  font-family: "SuperRamen";
+  src: url("src/SuperRamen-j9mDM.woff2") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ronysiswadi";
+  src: url("src/RonysiswadiArchitect4-qZmp2.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ReallyFree";
+  src: url("/src/ReallyFree-ALwl7.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CascadiaCodeItalic";
+  src: url("src/CascadiaCode-Italic-VariableFont_wght.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CascadiaCode";
+  src: url("src/CascadiaCode-VariableFont_wght.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// MOBILE STYLES (Default - Smaller headings)
+
+p {
+  color: #14151f;
+  font-family: "CascadiaCode";
+  max-width: 65ch;
+  font-size: 1.12rem;
+}
+
+h1 {
+  font-family: "SuperRamen";
+  font-size: 2.6rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h2 {
+  font-family: "Ronysiswadi";
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "ReallyFree";
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.card-title {
+  font-family: "ReallyFree";
+  font-size: 2.5rem;
+}
+
+.card-subtitle {
+  font-family: "CascadiaCodeItalic";
+  font-size: 1.1rem;
+}
+
+.semititle {
+  font-family: "Ronysiswadi";
+  color: $warning;
+  font-size: 1.2rem;
+  margin-top: -0.75rem;
+  margin-bottom: 0;
+  padding: 0 !important;
+}
+
+.btn {
+  font-family: "Ronysiswadi";
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0 !important;
+}
+
+// TABLET & UP (min-width: 768px)
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6rem !important;
+  }
+
+  h2 {
+    font-size: 4rem !important;
+  }
+
+  h3 {
+    font-size: 3rem !important;
+  }
+
+  .card-title {
+    font-size: 2.5rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .semititle {
+    font-size: 2.5rem !important;
+    margin-top: -1.5rem;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+  }
+}
